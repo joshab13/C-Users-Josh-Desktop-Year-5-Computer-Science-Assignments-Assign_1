@@ -1,0 +1,55 @@
+package Assign_1;
+
+
+import Media.*;                  // for Turtle and TurtleDisplayer
+import static java.lang.Math.*;  // for Math constants and functions
+import static java.awt.Color.*;  // for Color constants
+
+
+// COSC 1P02 Assignment 1 //
+  
+//  @Joshua Braganza //
+
+ // @version 1.0 (Jan 25th 2019)    //                                                  
+  
+public class Crystal {
+  
+  //Instance variables
+  private TurtleDisplayer display;
+  private Turtle yertle;
+  
+  //Stuff
+    
+  public Crystal ( ) {
+        
+    display = new TurtleDisplayer();
+    yertle = new Turtle(Turtle.FAST);
+    display.placeTurtle(yertle);
+    yertle.penDown();
+      
+      //To repeat the inner for-loop 24 times
+    for (int j=1; j<=24; j++){
+      
+      //To draw one dodecagon
+      for(int i=1; i<=12 ; i++){
+        yertle.forward(25);
+        yertle.right(2*PI/12);
+      }
+        
+        
+      yertle.penUp();        
+      yertle.left(2*PI/24);
+      yertle.penDown();
+      
+    }
+          
+        
+    }; //End of code
+    
+    
+    public static void main ( String[] args ) { 
+      
+      Crystal s = new Crystal(); };
+    
+    
+}

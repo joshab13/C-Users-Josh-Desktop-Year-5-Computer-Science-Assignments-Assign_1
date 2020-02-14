@@ -1,0 +1,32 @@
+package Assign_1;
+
+
+import Media.*;                  // for Turtle and TurtleDisplayer
+import static java.lang.Math.*;  // for Math constants and functions
+import static java.awt.Color.*;  // for Color constants
+
+
+/** This class ...
+  
+  @Joshua Braganza
+  @version 1.0 (Jan 25th 2019)                                                       */
+
+public class Dodecagon {
+    
+    
+    // instance variables
+    
+    
+    /** This constructor ...                                                     */
+    
+    public Dodecagon ( ) {
+        
+        // statements
+        
+    }; // constructor
+    
+    
+    public static void main ( String[] args ) { Dodecagon s = new Dodecagon>(); };
+    
+    
+} // <className>

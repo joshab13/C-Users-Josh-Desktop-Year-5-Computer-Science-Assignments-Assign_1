@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<drjava version="drjava-20190813-220051">
+  <project autorefresh="false" build="" main="" root="" work="">
+    <createjar file=""/>
+    <source>
+      <file active="true" name="Crystal.java" package="Assign_1" timestamp="25-Jan-2020 23:58:27">
+        <select from="357" to="357"/>
+        <scroll column="276" row="0"/>
+      </file>
+      <file name="Dodecagon.java" package="Assign_1" timestamp="25-Jan-2020 23:56:27">
+        <select from="357" to="357"/>
+        <scroll column="276" row="0"/>
+      </file>
+    </source>
+    <included/>
+    <excluded/>
+    <collapsed/>
+    <classpath/>
+    <breakpoints/>
+    <watches/>
+    <bookmarks/>
+    <preferences/>
+  </project>
+</drjava>
